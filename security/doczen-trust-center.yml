@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+url: https://app.eu.vanta.com/doczen.com/trust/t4mr1pokciixj4vpiiogvl
+source: https://www.doczen.com/
+description: >-
+  Doczen publishes a Vanta-hosted Trust Center and advertises enterprise-grade
+  security and compliance on its homepage. The certifications/frameworks below
+  are the ones named on the doczen.com homepage security section that links to
+  the Vanta trust center. The automated trust-center probe did not record this
+  because the trust surface is a Vanta subdomain (app.eu.vanta.com) rather than
+  a trust.<domain> host meeting the probe's keyword threshold — this is the
+  searched, human-verified fill. Certifications are as advertised by the vendor.
+hosted_by: Vanta
+certifications:
+- {name: ISO 27001, note: Named on doczen.com homepage as an advertised certification.}
+- {name: SOC 2, note: Named on doczen.com homepage as an advertised certification.}
+- {name: GDPR, note: Advertised compliance posture.}
+- {name: EU AI Act, note: Advertised compliance/alignment posture.}
+docs:
+- https://app.eu.vanta.com/doczen.com/trust/t4mr1pokciixj4vpiiogvl
+- https://www.doczen.com/privacy
+evidence:
+- {source: 'https://www.doczen.com/', keywords: [iso 27001, soc 2, gdpr, ai act, trust center, vanta]}

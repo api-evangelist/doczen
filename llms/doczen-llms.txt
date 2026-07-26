@@ -1,0 +1,21 @@
+# Doczen
+
+> Enterprise AI transformation, unlocked. From signals to results – in days, not months.
+
+Doczen helps enterprises adopt AI by connecting business signals to actionable outcomes. The platform offers AI readiness assessments, industry-specific AI solutions, intelligent agents, and hands-on implementation support to accelerate digital transformation.
+
+## Pages
+
+- [/](/): Home — Enterprise AI transformation platform overview with product capabilities, social proof, and contact entry points.
+- [/ai-readiness](/ai-readiness): AI Readiness Assessment — Evaluate your organization's readiness for AI adoption.
+- [/book-demo](/book-demo): Book a Demo — Schedule a personalized demonstration of Doczen's enterprise AI solutions.
+- [/industries](/industries): Industries — Explore AI transformation solutions tailored to specific industries.
+- [/blog](/blog): Blog — Insights, guides, and updates on enterprise AI transformation.
+- [/privacy](/privacy): Privacy Policy — Data handling and privacy practices.
+- [/eula](/eula): End User License Agreement — Terms of service for Doczen platform usage.
+
+## Optional
+
+- [/industries/:slug](/industries/healthcare): Industry-specific AI solution page (example: healthcare).
+- [/agents/:slug](/agents/data-analyst): Intelligent agent detail page (example: data analyst agent).
+- [/blog/:slug](/blog/ai-transformation-guide): Individual blog article (example: AI transformation guide).

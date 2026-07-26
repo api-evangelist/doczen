@@ -1,7 +1,20 @@
 aid: doczen
 name: Doczen
-description: Doczen is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Doczen is an enterprise AI transformation platform that connects business
+  signals to actionable outcomes, helping large organizations adopt AI in days
+  rather than months. The product uses AI agents to interview employees and
+  aggregate signals from communication and productivity tools to surface
+  operational issues, then ranks the resulting opportunities by financial
+  impact, ROI, feasibility, and urgency. It guides implementation through
+  buy-vs-build decisions and vendor recommendations, and runs a continuous
+  monitoring loop that tracks progress and measures business impact. Doczen
+  targets enterprises across financial services, healthcare, manufacturing,
+  energy, technology, and transportation and logistics, and integrates with
+  hundreds of tools. It advertises an enterprise security and compliance
+  posture (ISO 27001, SOC 2, GDPR, EU AI Act) via a Vanta-hosted trust center.
+  Doczen is backed by Seedcamp and was added to the API Evangelist network from
+  the Seedcamp portfolio; it currently exposes no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/doczen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +22,30 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.doczen.com/favicon.ico
 tags:
 - Company
+- Artificial Intelligence
+- AI Transformation
+- Enterprise Software
+- SaaS
+- AI Agents
+- Digital Transformation
+- Business Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/doczen-domain-security.yml
 - type: Website
-  url: http://doczen.com
+  url: https://www.doczen.com
+- type: Blog
+  url: https://www.doczen.com/blog
+- type: PrivacyPolicy
+  url: https://www.doczen.com/privacy
+- type: TermsOfService
+  url: https://www.doczen.com/eula
+- type: TrustCenter
+  url: https://app.eu.vanta.com/doczen.com/trust/t4mr1pokciixj4vpiiogvl
+- type: Compliance
+  url: https://app.eu.vanta.com/doczen.com/trust/t4mr1pokciixj4vpiiogvl
+- type: LLMsTxt
+  url: llms/doczen-llms.txt
+- type: WellKnown
+  url: well-known/doczen-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
